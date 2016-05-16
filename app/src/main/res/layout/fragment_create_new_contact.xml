@@ -1,0 +1,62 @@
+<by.ingvarskogen.contacts.ui.LoadingView
+    android:id="@+id/loadingView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/inputLayoutName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_between_text"
+            android:layout_marginLeft="@dimen/margin_between_elements"
+            android:layout_marginRight="@dimen/margin_between_elements"
+            android:layout_marginTop="@dimen/margin_between_text">
+
+            <EditText
+                android:id="@+id/editName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/create_new_contact_name_hint"
+                android:imeOptions="actionNext"
+                android:inputType="textCapWords"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/inputLayoutPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_between_text"
+            android:layout_marginLeft="@dimen/margin_between_elements"
+            android:layout_marginRight="@dimen/margin_between_elements"
+            android:layout_marginTop="@dimen/margin_between_text">
+
+            <EditText
+                android:id="@+id/editPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/create_new_contact_phone_hint"
+                android:imeOptions="actionDone"
+                android:inputType="phone"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btnCreate"
+            style="@style/ButtonRaised"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_between_elements"
+            android:background="@drawable/button_primary"
+            android:text="@string/create_new_contact_create"/>
+
+    </LinearLayout>
+</by.ingvarskogen.contacts.ui.LoadingView>

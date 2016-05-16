@@ -1,0 +1,90 @@
+<resources>
+
+        <style name="TextLarge">
+            <item name="android:textSize">@dimen/global_text_size_large</item>
+        </style>
+
+        <style name="TextLarge.PrimaryColor">
+            <item name="android:textSize">@dimen/global_text_size_large</item>
+            <item name="android:textColor">@color/global_color_primary</item>
+        </style>
+
+        <style name="TextMedium">
+            <item name="android:textSize">@dimen/global_text_size_medium</item>
+        </style>
+
+        <style name="TextSmall">
+            <item name="android:textSize">@dimen/global_text_size_small</item>
+        </style>
+
+        <style name="TextSmall.BlackPrimary">
+            <item name="android:textColor">@color/text_primary_black</item>
+        </style>
+
+        <style name="TextSmall.BlackSecondary">
+            <item name="android:textColor">@color/text_secondary_black</item>
+        </style>
+
+        <style name="TextSmall.WhitePrimary">
+            <item name="android:textColor">@color/text_primary_white</item>
+        </style>
+
+        <style name="TextSmall.WhiteSecondary">
+            <item name="android:textColor">@color/text_secondary_white</item>
+        </style>
+
+        <style name="TextMedium.BlackPrimary">
+            <item name="android:textColor">@color/text_primary_black</item>
+        </style>
+
+        <style name="TextMedium.BlackSecondary">
+            <item name="android:textColor">@color/text_secondary_black</item>
+        </style>
+
+        <style name="TextMedium.WhitePrimary">
+            <item name="android:textColor">@color/text_primary_white</item>
+        </style>
+
+        <style name="TextMedium.WhiteSecondary">
+            <item name="android:textColor">@color/text_secondary_white</item>
+        </style>
+
+        <style name="TextLarge.BlackPrimary">
+            <item name="android:textColor">@color/text_primary_black</item>
+        </style>
+
+        <style name="TextLarge.WhitePrimary">
+            <item name="android:textColor">@color/text_primary_white</item>
+        </style>
+
+        <style name="TransparentText">
+            <item name="android:textColor">@color/transparent</item>
+        </style>
+
+        <style name="ButtonRaised" parent="Theme.AppCompat">
+            <item name="android:textColor">@color/text_primary_white</item>
+            <item name="android:textAllCaps">true</item>
+            <item name="android:paddingLeft">8dp</item>
+            <item name="android:paddingRight">8dp</item>
+            <item name="android:minWidth">65dp</item>
+            <item name="android:minHeight">36dp</item>
+            <item name="android:layout_marginTop">10dp</item>
+            <item name="android:layout_marginBottom">10dp</item>
+            <item name="android:layout_marginRight">3dp</item>
+            <item name="android:layout_marginLeft">3dp</item>
+        </style>
+
+        <style name="ButtonFlat" parent="Widget.AppCompat.Button.Borderless">
+            <item name="android:textColor">@color/text_primary_black</item>
+            <item name="android:paddingLeft">8dp</item>
+            <item name="android:paddingRight">8dp</item>
+            <item name="android:minWidth">65dp</item>
+            <item name="android:minHeight">36dp</item>
+            <item name="android:layout_marginTop">10dp</item>
+            <item name="android:layout_marginBottom">10dp</item>
+            <item name="android:layout_marginRight">3dp</item>
+            <item name="android:layout_marginLeft">3dp</item>
+            <item name="android:background">@drawable/button_white</item>
+        </style>
+
+</resources>

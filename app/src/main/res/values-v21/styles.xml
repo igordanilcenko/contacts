@@ -1,0 +1,18 @@
+<resources>
+
+    <style name="ButtonRaised" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/text_primary_white</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:minWidth">65dp</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:translationZ">4dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Contacts</string>
+
+    <string name="title_contact_list">Contacts</string>
+    <string name="title_create_new_contact">Create new contact</string>
+
+    <string name="order_count">x %d</string>
+
+
+    <string name="create_new_contact_name_hint">First and last name</string>
+    <string name="create_new_contact_phone_hint">Phone number</string>
+    <string name="create_new_contact_create">Create</string>
+    <string name="create_new_contact_success">New user successfully created!</string>
+
+    <string name="error_empty_field">Field cannot be empty</string>
+    <string name="error_min_length_field">Field must contain at least 5 characters</string>
+    <string name="error_create_new_user">An error occurred while creating new user</string>
+    <string name="error_refreshing_contact_list">An error occurred while refreshing contact list</string>
+
+    <string name="action_add">Create new contact</string>
+
+    <string name="loadingview_error">An error occurred.\nPlease try again later</string>
+    <string name="loadingview_reload">Reload</string>
+    <string name="loadingview_empty">no data</string>
+
+    <string name="user_icon_transition">User icon</string>
+
+</resources>

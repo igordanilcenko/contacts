@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="global_color_primary">#009688</color>
+    <color name="global_color_primary_dark">#00796B</color>
+    <color name="global_color_accent">#FFC107</color>
+
+    <color name="text_primary_white">#FFFFFF</color>
+    <color name="text_secondary_white">#ceffffff</color>
+    <color name="text_primary_black">#d4000000</color>
+    <color name="text_secondary_black">#90000000</color>
+
+    <color name="transparent">#00ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="white_pressed">#ffbbbbbb</color>
+    <color name="frame_dark">#64000000</color>
+    <color name="frame_light">#64ffffff</color>
+    <color name="divider_dark">#18000000</color>
+    <color name="divider_light">#64ffffff</color>
+    <color name="window_background">@color/white</color>
+
+</resources>
